@@ -1,0 +1,13 @@
+.footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid black;
+    max-width: 960px;
+    margin: 0 auto
+}
+.footer h3 {
+    color: red
+}
+.footer p {
+    color: blue
+}
