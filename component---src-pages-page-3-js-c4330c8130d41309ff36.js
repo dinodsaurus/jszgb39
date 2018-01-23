@@ -1,0 +1,2 @@
+webpackJsonp([0x81ce6852476c],{196:function(e,t,l){"use strict";function u(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var n=l(2),a=u(n),o=l(42),d=u(o),r=function(){return a.default.createElement("div",null,a.default.createElement("h1",null,"Hi people"),a.default.createElement("p",null,"Welcome to your new Gatsby site."),a.default.createElement("p",null,"Now go build something great."),a.default.createElement(d.default,{to:"/"},"Go to index"))};t.default=r,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-page-3-js-c4330c8130d41309ff36.js.map

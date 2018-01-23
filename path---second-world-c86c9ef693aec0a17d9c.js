@@ -1,0 +1,2 @@
+webpackJsonp([0x76da1000dd50],{315:function(t,e){t.exports={data:{markdownRemark:{html:"<h2>Second blog post</h2>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",frontmatter:{title:"Second blog post title",date:"December, 31, 2017",path:"/second-world",excerpt:"Short desc of scond"}}},pathContext:{}}}});
+//# sourceMappingURL=path---second-world-c86c9ef693aec0a17d9c.js.map
