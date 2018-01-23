@@ -1,0 +1,2 @@
+webpackJsonp([60705125284529],{319:function(t,e){t.exports={data:{markdownRemark:{html:"<h2>Third blog post</h2>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",frontmatter:{title:"Third blog post title",date:"December, 31, 2017",path:"/third-world",excerpt:"Third desc of scond"}}},pathContext:{}}}});
+//# sourceMappingURL=path---third-world-960575119a00f0273197.js.map

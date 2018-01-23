@@ -5,20 +5,24 @@
       "component---src-pages-index-js-9ec9a415d7c7d776d557.js.map"
     ],
     "path---blog": [
-      "path---blog-7f39aaa3a13040459f2a.js",
-      "path---blog-7f39aaa3a13040459f2a.js.map"
+      "path---blog-95274ed7568e777ad288.js",
+      "path---blog-95274ed7568e777ad288.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---third-world": [
+      "path---third-world-960575119a00f0273197.js",
+      "path---third-world-960575119a00f0273197.js.map"
     ],
     "component---src-templates-blog-post-js": [
       "component---src-templates-blog-post-js-e7c25198e71a979b9e32.js",
       "component---src-templates-blog-post-js-e7c25198e71a979b9e32.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-ed9001f2bc06eaca53c2.js",
-      "component---src-layouts-index-js-ed9001f2bc06eaca53c2.js.map"
+      "component---src-layouts-index-js-89d497ae8ad310a28322.js",
+      "component---src-layouts-index-js-89d497ae8ad310a28322.js.map"
     ],
     "path---second-world": [
       "path---second-world-c86c9ef693aec0a17d9c.js",
@@ -65,9 +69,9 @@
       "component---src-pages-page-2-js-c707087a5423d5ff19e8.js.map"
     ],
     "app": [
-      "app-b2c275030a78d8036094.js",
+      "app-2a6c9d7f9d78d8b40339.js",
       "build-js-styles.css",
-      "app-b2c275030a78d8036094.js.map",
+      "app-2a6c9d7f9d78d8b40339.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
