@@ -3,7 +3,7 @@ const BlogPost = ({node}) => {
     const { frontmatter: post } = node;
     return (
     <div key={post.id} className="blogPost">
-        <h2>{post.title}</h2>
+        <h2><a href={post.path}>{post.title}</a></h2>
         <p>{post.excerpt}</p>
     </div>
 )};
