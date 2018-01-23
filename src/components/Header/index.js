@@ -30,7 +30,7 @@ const Header = () => (
       </h1>
     </div>
     <nav>
-      <a href="/blog">Blog</a>
+      <Link to="/blog">Blog</Link>
     </nav>
   </div>
 )
