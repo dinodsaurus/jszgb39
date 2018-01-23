@@ -1,30 +1,31 @@
-import React from "react";
-const BlogPost = ({node}) => {
-    const { frontmatter: post } = node;
-    return (
-    <div key={post.id} className="blogPost">
-        <h2><a href={post.path}>{post.title}</a></h2>
-        <p>{post.excerpt}</p>
-    </div>
-)};
+import React from 'react'
+import Link from 'gatsby-link'
 
-const BlogPage = ({data}) => {
-    const { edges: posts } = data.allMarkdownRemark;
-    console.log(posts);
-    return (
-        <div className="blogPage">
-            <h1>Blog Page</h1>
-            {posts.map(BlogPost)}
-        </div>
-    )
+const BlogPost = ({node}) => {
+  const { frontmatter: post } = node
+  return (
+    <div key={post.id} className='blogPost'>
+      <h2><Link to={post.path}>{post.title}</Link></h2>
+      <p>{post.excerpt}</p>
+    </div>
+  )
 }
 
+const BlogPage = ({data}) => {
+  const { edges: posts } = data.allMarkdownRemark
+  return (
+    <div className='blogPage'>
+      <h1>Blog Page</h1>
+      {posts.map(BlogPost)}
+    </div>
+  )
+}
 
 export const query = graphql`
- query IndexQuery {
+ query BlogPostsQuery {
    allMarkdownRemark {
      totalCount
-     edges {
+     posts {
        node {
          id
          frontmatter {
@@ -39,4 +40,4 @@ export const query = graphql`
  }
 `
 
-export default BlogPage;
+export default BlogPage
