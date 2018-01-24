@@ -1,13 +1,12 @@
-# gatsby-starter-default
-The default Gatsby starter
+# The Great Gatsby
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+### jsZgb#39 meetup talk
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+On my quest to find the best static site generator I have finally found a contender that can take the crown. Why? It combines all the cool features from modern JavaScript development into a usable and developer friendly environment. Oh yea.. and it's "serverless".
+
+
 ```
-gatsby new gatsby-example-site
+    yarn // to install all packages
+    gatsby develop // to run dev server
+    gatsby build // to build static sites
 ```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)

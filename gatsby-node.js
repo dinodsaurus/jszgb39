@@ -4,10 +4,6 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators
   const blogPostTemplate = path.resolve(`src/templates/blog-post.js`)
 
-  // If you are experiencing issues with the ordering of the posts on the homepage,
-  // replace the `allMarkdownRemark` line below with something like this:
-  // allMarkdownRemark(sort:{fields:[frontmatter___date], order: ASC}) {
-
   return graphql(`{
     allMarkdownRemark {
       edges {

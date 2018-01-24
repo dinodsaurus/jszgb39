@@ -25,7 +25,7 @@ export const query = graphql`
  query BlogPostsQuery {
    allMarkdownRemark {
      totalCount
-     posts {
+     edges {
        node {
          id
          frontmatter {
